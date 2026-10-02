@@ -1,0 +1,481 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@hathq/delivery-client':
+        specifier: file:../../../../../../../.artifacts/npm/664193abd29b6a9a34e445aa4eaa3887f432587a7e3a990897eb697663a49b84/hathq-delivery-client-0.10.0.tgz
+        version: file:../../../../../../../.artifacts/npm/664193abd29b6a9a34e445aa4eaa3887f432587a7e3a990897eb697663a49b84/hathq-delivery-client-0.10.0.tgz
+      '@hathq/delivery-server':
+        specifier: file:../../../../../../../.artifacts/npm/2ba2f7fbee09dce60eb9ec67d308b53ad54dcdb61638640b4d87e36390050c70/hathq-delivery-server-0.10.0.tgz
+        version: file:../../../../../../../.artifacts/npm/2ba2f7fbee09dce60eb9ec67d308b53ad54dcdb61638640b4d87e36390050c70/hathq-delivery-server-0.10.0.tgz
+      '@hathq/ihat-store-core':
+        specifier: file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz
+        version: file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz
+      '@hathq/ihat-store-local':
+        specifier: file:../../../../../../../.artifacts/npm/db8e22b9080b8aa46157c550aa262d545326e43199ad988f9edc744282dae8e8/hathq-ihat-store-local-0.10.0.tgz
+        version: file:../../../../../../../.artifacts/npm/db8e22b9080b8aa46157c550aa262d545326e43199ad988f9edc744282dae8e8/hathq-ihat-store-local-0.10.0.tgz
+      '@hathq/ihat-store-scenes':
+        specifier: file:../../../../../../../.artifacts/npm/e5890b57443cefc0d7871ffde5b8a355950f8db2e6d210cdbe4888ddb608fa11/hathq-ihat-store-scenes-0.10.0.tgz
+        version: file:../../../../../../../.artifacts/npm/e5890b57443cefc0d7871ffde5b8a355950f8db2e6d210cdbe4888ddb608fa11/hathq-ihat-store-scenes-0.10.0.tgz
+      '@hathq/ihat-store-source':
+        specifier: file:../../../../../../../.artifacts/npm/fe2fa895e5830ebd417c57567f5b4b36b39da5950863a040564d4a57711757a8/hathq-ihat-store-source-0.10.0.tgz
+        version: file:../../../../../../../.artifacts/npm/fe2fa895e5830ebd417c57567f5b4b36b39da5950863a040564d4a57711757a8/hathq-ihat-store-source-0.10.0.tgz
+      '@hathq/ihat-store-web':
+        specifier: file:../../../../../../../.artifacts/npm/f3aa7e2d08f8213a386c0a2aafe5cbcf1b5520fb0004e3755b75b85b6c431c1d/hathq-ihat-store-web-0.10.0.tgz
+        version: file:../../../../../../../.artifacts/npm/f3aa7e2d08f8213a386c0a2aafe5cbcf1b5520fb0004e3755b75b85b6c431c1d/hathq-ihat-store-web-0.10.0.tgz
+      '@playwright/test':
+        specifier: 1.62.1
+        version: 1.62.1
+      esbuild:
+        specifier: 0.28.1
+        version: 0.28.1
+
+packages:
+
+  '@crowsi/browser-security@file:../../../../../../../.artifacts/npm/84e72b71616d5f5507518e09129c26546851cad3045f14e7034f32cb5fb89581/crowsi-browser-security-0.10.0.tgz':
+    resolution: {integrity: sha512-UJSZA6fBr8h92d0Af1ygNM0Ntb57SIlzozOD3LMpR2Lk+dWiP1qnOI+UjrgdnLPVG2Wbvcn+SBoECXEMB+gk8g==, tarball: file:../../../../../../../.artifacts/npm/84e72b71616d5f5507518e09129c26546851cad3045f14e7034f32cb5fb89581/crowsi-browser-security-0.10.0.tgz}
+    version: 0.10.0
+    engines: {node: '>=22'}
+
+  '@crowsi/transport-foundation@file:../../../../../../../.artifacts/npm/3681e780264e95c203c34c3208848fdf326cc1f3e5b517b43f07f148c3c42906/crowsi-transport-foundation-0.10.0.tgz':
+    resolution: {integrity: sha512-s0wlj/rBeHJqi26/WcIOzqfhGFslspTZ7Q8yUECbatRHukk/vfWBzg1eyQKgzcw0zmdyqSORWYRqMjiLBNvSrw==, tarball: file:../../../../../../../.artifacts/npm/3681e780264e95c203c34c3208848fdf326cc1f3e5b517b43f07f148c3c42906/crowsi-transport-foundation-0.10.0.tgz}
+    version: 0.10.0
+    engines: {node: '>=22'}
+
+  '@esbuild/aix-ppc64@0.28.1':
+    resolution: {integrity: sha512-Svl7tq8k/08+p6CXPpRjQ1fKX+1odH/BQbb48fV6fj3CWHhsoIOoY87w1oHXm0qEpkIK3ZfVgp0hed3XBXzXMQ==}
+    engines: {node: '>=18'}
+    cpu: [ppc64]
+    os: [aix]
+
+  '@esbuild/android-arm64@0.28.1':
+    resolution: {integrity: sha512-34EGEbCIAgosYz6goLcopX6Mo7NyGv9tfwEM2/7Ce2VcVRk568iSvniGWcUXIy7wEDR1wzolcxcriFVrWYcwBg==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [android]
+
+  '@esbuild/android-arm@0.28.1':
+    resolution: {integrity: sha512-0k2F129Xdio1TdJfzJ8sy1Q47vUD2NnwdhiAf7drUN1EBTfPf4hsFCtmMgu/6m8JSzsBrlmVjudMBQqOfG8usQ==}
+    engines: {node: '>=18'}
+    cpu: [arm]
+    os: [android]
+
+  '@esbuild/android-x64@0.28.1':
+    resolution: {integrity: sha512-dbwY7ltSMDWsRatcRpCnES4F+im88OCUgGZjy52shC7GqHRE/cYlxNbB4Z4UpJswpcc4Qxd2oE/ufM0p61IKng==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [android]
+
+  '@esbuild/darwin-arm64@0.28.1':
+    resolution: {integrity: sha512-TZbWkQY7kvTAXbXUT7uVACR5cMHsDiSz9z7ZKAX/RTq/WJEk3QyRr0wZpNhBDX+/0CtdqUIJlOiodQcta6tY3Q==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@esbuild/darwin-x64@0.28.1':
+    resolution: {integrity: sha512-zfdzgK9ACBNZLI/CyHTOx81SyNbM6YXn7rxSgX97VjyiPl9W1i4Ka4fgKECEoFCKGpvBj5qArWIGgQjOwkgskQ==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@esbuild/freebsd-arm64@0.28.1':
+    resolution: {integrity: sha512-wG2EA8ENdEI0qhkSZMjfqrdY+ziCYCPMmtZjjIwOmXFjmyzEHn+UUxk5of+SYsjtfs3VpnlC7QLzSI5hY/rOAw==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [freebsd]
+
+  '@esbuild/freebsd-x64@0.28.1':
+    resolution: {integrity: sha512-i7dZ9vQgnvSCzi/rYCXNgtF/U+eKZNJBzu3eTQbRgHnM7tNSizLOkRFAl3qzVc/Op/u5YkHHa4pf/3DOYHthLQ==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@esbuild/linux-arm64@0.28.1':
+    resolution: {integrity: sha512-yHs+0uc8+nvEAfAfxrWQKK5peSNzBc4PegcMO0EJ2hT71uA7vB8Ihg2e77R2P7SG5uYjPbHlLLmve4LLLRCf0g==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@esbuild/linux-arm@0.28.1':
+    resolution: {integrity: sha512-qVXBOHQS+d5Y722GwJzJUtOLlX7km3CraOaGormF1pDtPd2C/l1SHRPgjLunLGe51Sh5YYWKMFDyV4SxgMQYTQ==}
+    engines: {node: '>=18'}
+    cpu: [arm]
+    os: [linux]
+
+  '@esbuild/linux-ia32@0.28.1':
+    resolution: {integrity: sha512-d1z4ZuP0ajrfz/FhGT4vv278rX8KnPPJx8i5+AtK7TYbx9Le9F1hyzurZpkEyjkGa9dUGhQow4C1NmeGvqxN2w==}
+    engines: {node: '>=18'}
+    cpu: [ia32]
+    os: [linux]
+
+  '@esbuild/linux-loong64@0.28.1':
+    resolution: {integrity: sha512-M5sRjUVZrkm1OAPR3dlOYzNmN+loZKGVi1VUQGrwuqLcbR6qeAz+famMhjASeH3YVKvZz+zT1jlh/keC3Rj/lg==}
+    engines: {node: '>=18'}
+    cpu: [loong64]
+    os: [linux]
+
+  '@esbuild/linux-mips64el@0.28.1':
+    resolution: {integrity: sha512-mRObBZeHh2OxcBFPWE/FjylkRgZdYuiTR3vaTozquCGOH14iP9oN4x4Ge81CoIDYQrXmIxpFumJBu5MtZpnQJQ==}
+    engines: {node: '>=18'}
+    cpu: [mips64el]
+    os: [linux]
+
+  '@esbuild/linux-ppc64@0.28.1':
+    resolution: {integrity: sha512-slScBsMAb3GFDcdrCgLwZtPYRoH2H/youv10QiZyRjmsP48fznoveWytSgCI/R0ZcUgpc0ZhIUEx6LHts8yrfQ==}
+    engines: {node: '>=18'}
+    cpu: [ppc64]
+    os: [linux]
+
+  '@esbuild/linux-riscv64@0.28.1':
+    resolution: {integrity: sha512-kw0owk1o0GFETUJyW0jc0G4Yzs0BHZn0JDZ8JRT088vjJYX777BAs1fDGxAC+q831qOs2DTC96mNsG2opdfyyQ==}
+    engines: {node: '>=18'}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@esbuild/linux-s390x@0.28.1':
+    resolution: {integrity: sha512-/lAIjX8aYFRByhh6L5rYtPEDRqa9de/4V/juOXcta5frjvzXO4/sqEtyytse0g3zZFuWu5cDN0MkLz2qRDD2Ag==}
+    engines: {node: '>=18'}
+    cpu: [s390x]
+    os: [linux]
+
+  '@esbuild/linux-x64@0.28.1':
+    resolution: {integrity: sha512-u/anNYF2mmVOEDwLtnQ1wOr3EZ9sTNGLWrsYGYwHWzGA3Si84IOkHXlbWTD1NB+9/1lcnweYKO54uhxZydNzfA==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [linux]
+
+  '@esbuild/netbsd-arm64@0.28.1':
+    resolution: {integrity: sha512-oks0DYbLwWMmaakTsCb+zL4E+aHRVLom9IJZOAthMQEPiQmydXHkziYEsGYRx0uNV/IjEKGAV941JzH02pflqw==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [netbsd]
+
+  '@esbuild/netbsd-x64@0.28.1':
+    resolution: {integrity: sha512-aeL6lAnN89Hz43Mlh1G8ARasbuoYvSITDEx0tHh5b7jJnHcssqgjy9Yx430GDpmCa6OyrKoS0aNRjKundRizGg==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [netbsd]
+
+  '@esbuild/openbsd-arm64@0.28.1':
+    resolution: {integrity: sha512-MEFJe5C3R8pwXdZ5Y21oo6m7ePiS0d9pWucn99O/wvyJZChoIQKrQDxKrGeW8F5+T0okTHesAmDeiHDTIq0V/Q==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [openbsd]
+
+  '@esbuild/openbsd-x64@0.28.1':
+    resolution: {integrity: sha512-i/ZLIOafE0Z8cI/XANJAixoJL/uRAoS2xOA3rb0xN+KK0K177cMAsQYkzHtBrtMXAKuAc7HGgcWiZ/sRC1Nxgw==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [openbsd]
+
+  '@esbuild/openharmony-arm64@0.28.1':
+    resolution: {integrity: sha512-ge+Z7EXFNt2BO1oAMsVpiQ8EwndV9i1xXerAeTIK7AtPs3bKFXQM7nlRxDSIUIMeueR1CNXxqztLzdNeReKBJg==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [openharmony]
+
+  '@esbuild/sunos-x64@0.28.1':
+    resolution: {integrity: sha512-BEjgtECkL3vY+SaSQ6nzVfiALUeFxpawyp8Jmf5PtYhf1Ug40N1h/hxlhts+f1FvSvarEigdxS3BlSMI2PJLcQ==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [sunos]
+
+  '@esbuild/win32-arm64@0.28.1':
+    resolution: {integrity: sha512-lCv9eK/H6ZJWbE7bh2nw54CZ9M2nupBxJcTsdk/QQnWkdSjKGuxmmH8/GWrlT1eMmZfn4dGcCjRte397WqfQXA==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@esbuild/win32-ia32@0.28.1':
+    resolution: {integrity: sha512-zvb/mB2bSCoJOpoCBgYKKpX6YM6mJBlBUVUtVj41DlZJVEB6/0CKlRYxP5wWl1C1ILiCoAU5wZZ4q1P3qeS6Eg==}
+    engines: {node: '>=18'}
+    cpu: [ia32]
+    os: [win32]
+
+  '@esbuild/win32-x64@0.28.1':
+    resolution: {integrity: sha512-bm4Mowrv+GXMlpWX++EcXw/iLyd1o3+bJkC2DkWXYVvgZCqD/bSj9ctZeAMC3cIxgjRVR2Dufaiu4YPxr5gW1A==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [win32]
+
+  '@hathq/delivery-client@file:../../../../../../../.artifacts/npm/664193abd29b6a9a34e445aa4eaa3887f432587a7e3a990897eb697663a49b84/hathq-delivery-client-0.10.0.tgz':
+    resolution: {integrity: sha512-luH9aVem9uhUYdXm7Yjp3l3FoNuhJL+w20y8QUWEfPbdFsl0eOw8YP8N8wrFBfqXFopM4cWun/rNU+fvCUKLog==, tarball: file:../../../../../../../.artifacts/npm/664193abd29b6a9a34e445aa4eaa3887f432587a7e3a990897eb697663a49b84/hathq-delivery-client-0.10.0.tgz}
+    version: 0.10.0
+
+  '@hathq/delivery-contracts@file:../../../../../../../.artifacts/npm/24d8a336667d1572ef11cc09f80b92035d468e1cfda116549985cd28a08e3ebe/hathq-delivery-contracts-0.10.0.tgz':
+    resolution: {integrity: sha512-J7Jhgwvo8nyEMRRU1lYpNB+1EoYUDyAOxHR0aoejPKRCXwBecEhKhLMrOC+ECcw1KLDspe1v3n1GcM/yLQ81QQ==, tarball: file:../../../../../../../.artifacts/npm/24d8a336667d1572ef11cc09f80b92035d468e1cfda116549985cd28a08e3ebe/hathq-delivery-contracts-0.10.0.tgz}
+    version: 0.10.0
+
+  '@hathq/delivery-server@file:../../../../../../../.artifacts/npm/2ba2f7fbee09dce60eb9ec67d308b53ad54dcdb61638640b4d87e36390050c70/hathq-delivery-server-0.10.0.tgz':
+    resolution: {integrity: sha512-t4o3dQKYOWd+iMIuEdCK0g6Des51NcHAgnu4pEVQ/ax0Oi4l8oXMsnkbOFE12YjsxXiNA4vNqmALcb+ttqFDrg==, tarball: file:../../../../../../../.artifacts/npm/2ba2f7fbee09dce60eb9ec67d308b53ad54dcdb61638640b4d87e36390050c70/hathq-delivery-server-0.10.0.tgz}
+    version: 0.10.0
+
+  '@hathq/dom-renderer@file:../../../../../../../.artifacts/npm/3a738560d30085dff43df817f212a118766ae42dd7b45ac934d2e1d76ee77818/hathq-dom-renderer-0.10.0.tgz':
+    resolution: {integrity: sha512-Hi4fpp4KEpWyXAgCsVAXTOQb0J7q1GkZH4zCB1M2JS2SZqy3gM0r/2jbLGxv1oSo2bIwKi02rpfznZWYyA1TfQ==, tarball: file:../../../../../../../.artifacts/npm/3a738560d30085dff43df817f212a118766ae42dd7b45ac934d2e1d76ee77818/hathq-dom-renderer-0.10.0.tgz}
+    version: 0.10.0
+
+  '@hathq/ihat-store-core@file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz':
+    resolution: {integrity: sha512-DLh6xi2MjeJFP6AbEPOXjZGtOuIJp+/fWHp5sbtmDK6kg4sf0Y4EX8CLjoS7wPnMcfXf9Sl+tP12GHuHs89zpw==, tarball: file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz}
+    version: 0.10.0
+
+  '@hathq/ihat-store-local@file:../../../../../../../.artifacts/npm/db8e22b9080b8aa46157c550aa262d545326e43199ad988f9edc744282dae8e8/hathq-ihat-store-local-0.10.0.tgz':
+    resolution: {integrity: sha512-c6D1zK5y5TNJQh92A4sdPiIXXDTKf7ElgRnFYDBTw1+/S79OFMD1lT0l0SJFlA/oY7VXkpgEgjbd43Hgd4ZNlQ==, tarball: file:../../../../../../../.artifacts/npm/db8e22b9080b8aa46157c550aa262d545326e43199ad988f9edc744282dae8e8/hathq-ihat-store-local-0.10.0.tgz}
+    version: 0.10.0
+
+  '@hathq/ihat-store-scenes@file:../../../../../../../.artifacts/npm/e5890b57443cefc0d7871ffde5b8a355950f8db2e6d210cdbe4888ddb608fa11/hathq-ihat-store-scenes-0.10.0.tgz':
+    resolution: {integrity: sha512-duzMfgx9XsSSi40XhcCc8sw5vrxVllAyN5qZmMGcWaeOLpr2kuBY11inkxJ/yuTYTRm30RdgkNAhavqIAahbBQ==, tarball: file:../../../../../../../.artifacts/npm/e5890b57443cefc0d7871ffde5b8a355950f8db2e6d210cdbe4888ddb608fa11/hathq-ihat-store-scenes-0.10.0.tgz}
+    version: 0.10.0
+
+  '@hathq/ihat-store-source@file:../../../../../../../.artifacts/npm/fe2fa895e5830ebd417c57567f5b4b36b39da5950863a040564d4a57711757a8/hathq-ihat-store-source-0.10.0.tgz':
+    resolution: {integrity: sha512-nCweb4HritHHJ58FqPJIhSKeyV3I40Z94qHo2hHv3DSZ5U+ev/5gMDAEFUoJZETkmCqCp3bkLl4Q5aOkTUwaKg==, tarball: file:../../../../../../../.artifacts/npm/fe2fa895e5830ebd417c57567f5b4b36b39da5950863a040564d4a57711757a8/hathq-ihat-store-source-0.10.0.tgz}
+    version: 0.10.0
+
+  '@hathq/ihat-store-web@file:../../../../../../../.artifacts/npm/f3aa7e2d08f8213a386c0a2aafe5cbcf1b5520fb0004e3755b75b85b6c431c1d/hathq-ihat-store-web-0.10.0.tgz':
+    resolution: {integrity: sha512-T6m1XGGafcBJccFOmAUHcexwJwodWYdBO+jMFWJt2EFe/bO23gT033zqUCriFiKwZXAidgyon/7m1HEwFU6lgg==, tarball: file:../../../../../../../.artifacts/npm/f3aa7e2d08f8213a386c0a2aafe5cbcf1b5520fb0004e3755b75b85b6c431c1d/hathq-ihat-store-web-0.10.0.tgz}
+    version: 0.10.0
+
+  '@hathq/projection-client@file:../../../../../../../.artifacts/npm/0b25c8bd5e112b498d040a132cdaaa42e06d64cf3f3f54930f7ddf26f6dfe89f/hathq-projection-client-0.10.0.tgz':
+    resolution: {integrity: sha512-UBNz44w74wTqbi9CMAEFX4iOUA2vBr6wIJWd9LvkzFjGQ8TUC6Njd8asPPRybj/pwO5W8rQ8Srt4CGkRTXr7kA==, tarball: file:../../../../../../../.artifacts/npm/0b25c8bd5e112b498d040a132cdaaa42e06d64cf3f3f54930f7ddf26f6dfe89f/hathq-projection-client-0.10.0.tgz}
+    version: 0.10.0
+
+  '@hathq/projection-contracts@file:../../../../../../../.artifacts/npm/b2da11ed4896c72e21e29c93cf90717db3b161445861cf0925ceda71dd6d0767/hathq-projection-contracts-0.10.0.tgz':
+    resolution: {integrity: sha512-9g00hHjHELo/PEmV7M82H3K9WN8ugjKPgNwoqIaIh82vDN+1XIzDHkZFBGqMWB8iz5b7RqWU02li9PcvKlJLig==, tarball: file:../../../../../../../.artifacts/npm/b2da11ed4896c72e21e29c93cf90717db3b161445861cf0925ceda71dd6d0767/hathq-projection-contracts-0.10.0.tgz}
+    version: 0.10.0
+    engines: {node: '>=22'}
+
+  '@playwright/test@1.62.1':
+    resolution: {integrity: sha512-DTcUc8qii+cpHvtOwggMtBRMjKZHXYWdw8syRYu2vtzuq4Wxphqq4NfCs5Zt44L6mA8rfDfj+PHnxFc/FeK6mQ==}
+    engines: {node: '>=20'}
+    hasBin: true
+
+  '@zixcel/interaction@file:../../../../../../../.artifacts/npm/1c2d6e15a4212e2459887589f3e79781a9902f0ebbf44f12dc76bd75e82efa66/zixcel-interaction-0.10.0.tgz':
+    resolution: {integrity: sha512-3XOHU/VPEGosjHRfEC1DMta6P8s3w6NTum1dzWzOfn2aCK6GoKWzZtjQLWer/YyxwroBZh6vLWVgrDFsk2fEMA==, tarball: file:../../../../../../../.artifacts/npm/1c2d6e15a4212e2459887589f3e79781a9902f0ebbf44f12dc76bd75e82efa66/zixcel-interaction-0.10.0.tgz}
+    version: 0.10.0
+
+  esbuild@0.28.1:
+    resolution: {integrity: sha512-HrJrvZv5ayxBzPfwphOoNzkzOIIlifzk0KJrGK2c8R4+LKpMtpYLQeUdjnwjWv/LZlkH2laZk+4w78pi99D4Vw==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  fsevents@2.3.2:
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+
+  ohash@2.0.11:
+    resolution: {integrity: sha512-RdR9FQrFwNBNXAr4GixM8YaRZRJ5PUWbKYbE5eOsrwAjJW0q2REGcf79oYPsLyskQCZG1PLN+S/K1V00joZAoQ==}
+
+  playwright-core@1.62.1:
+    resolution: {integrity: sha512-wPYSwEBJY9GHraISXqyqtx0na0LpO3XEX7jNDhntbex7tzUS7kLnZsOlFruFJB4Hi/rhDMjXGqHewDZ68nYZVw==}
+    engines: {node: '>=20'}
+    hasBin: true
+
+  playwright@1.62.1:
+    resolution: {integrity: sha512-0M+L3LAD8/nm554LOla9Ayx0j0tmFZ0FBcoQ7F1VuVHpM/XpiC8RcDzBQB8W5+hA8L22THxELzeF+2WcUzvcLg==}
+    engines: {node: '>=20'}
+    hasBin: true
+
+  ws@8.21.2:
+    resolution: {integrity: sha512-54dMVAo4WIe6SKy3vBgN+9bJZqqQ8IMRevAkOLQALhi49qkkQDQfWdAZ8KQlXiEabw88ARXXdUrlvtbKQX+aKw==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+
+snapshots:
+
+  '@crowsi/browser-security@file:../../../../../../../.artifacts/npm/84e72b71616d5f5507518e09129c26546851cad3045f14e7034f32cb5fb89581/crowsi-browser-security-0.10.0.tgz': {}
+
+  '@crowsi/transport-foundation@file:../../../../../../../.artifacts/npm/3681e780264e95c203c34c3208848fdf326cc1f3e5b517b43f07f148c3c42906/crowsi-transport-foundation-0.10.0.tgz': {}
+
+  '@esbuild/aix-ppc64@0.28.1':
+    optional: true
+
+  '@esbuild/android-arm64@0.28.1':
+    optional: true
+
+  '@esbuild/android-arm@0.28.1':
+    optional: true
+
+  '@esbuild/android-x64@0.28.1':
+    optional: true
+
+  '@esbuild/darwin-arm64@0.28.1':
+    optional: true
+
+  '@esbuild/darwin-x64@0.28.1':
+    optional: true
+
+  '@esbuild/freebsd-arm64@0.28.1':
+    optional: true
+
+  '@esbuild/freebsd-x64@0.28.1':
+    optional: true
+
+  '@esbuild/linux-arm64@0.28.1':
+    optional: true
+
+  '@esbuild/linux-arm@0.28.1':
+    optional: true
+
+  '@esbuild/linux-ia32@0.28.1':
+    optional: true
+
+  '@esbuild/linux-loong64@0.28.1':
+    optional: true
+
+  '@esbuild/linux-mips64el@0.28.1':
+    optional: true
+
+  '@esbuild/linux-ppc64@0.28.1':
+    optional: true
+
+  '@esbuild/linux-riscv64@0.28.1':
+    optional: true
+
+  '@esbuild/linux-s390x@0.28.1':
+    optional: true
+
+  '@esbuild/linux-x64@0.28.1':
+    optional: true
+
+  '@esbuild/netbsd-arm64@0.28.1':
+    optional: true
+
+  '@esbuild/netbsd-x64@0.28.1':
+    optional: true
+
+  '@esbuild/openbsd-arm64@0.28.1':
+    optional: true
+
+  '@esbuild/openbsd-x64@0.28.1':
+    optional: true
+
+  '@esbuild/openharmony-arm64@0.28.1':
+    optional: true
+
+  '@esbuild/sunos-x64@0.28.1':
+    optional: true
+
+  '@esbuild/win32-arm64@0.28.1':
+    optional: true
+
+  '@esbuild/win32-ia32@0.28.1':
+    optional: true
+
+  '@esbuild/win32-x64@0.28.1':
+    optional: true
+
+  '@hathq/delivery-client@file:../../../../../../../.artifacts/npm/664193abd29b6a9a34e445aa4eaa3887f432587a7e3a990897eb697663a49b84/hathq-delivery-client-0.10.0.tgz':
+    dependencies:
+      '@crowsi/transport-foundation': file:../../../../../../../.artifacts/npm/3681e780264e95c203c34c3208848fdf326cc1f3e5b517b43f07f148c3c42906/crowsi-transport-foundation-0.10.0.tgz
+      '@hathq/delivery-contracts': file:../../../../../../../.artifacts/npm/24d8a336667d1572ef11cc09f80b92035d468e1cfda116549985cd28a08e3ebe/hathq-delivery-contracts-0.10.0.tgz
+      '@hathq/dom-renderer': file:../../../../../../../.artifacts/npm/3a738560d30085dff43df817f212a118766ae42dd7b45ac934d2e1d76ee77818/hathq-dom-renderer-0.10.0.tgz
+      '@hathq/projection-client': file:../../../../../../../.artifacts/npm/0b25c8bd5e112b498d040a132cdaaa42e06d64cf3f3f54930f7ddf26f6dfe89f/hathq-projection-client-0.10.0.tgz
+
+  '@hathq/delivery-contracts@file:../../../../../../../.artifacts/npm/24d8a336667d1572ef11cc09f80b92035d468e1cfda116549985cd28a08e3ebe/hathq-delivery-contracts-0.10.0.tgz':
+    dependencies:
+      '@hathq/projection-contracts': file:../../../../../../../.artifacts/npm/b2da11ed4896c72e21e29c93cf90717db3b161445861cf0925ceda71dd6d0767/hathq-projection-contracts-0.10.0.tgz
+      '@zixcel/interaction': file:../../../../../../../.artifacts/npm/1c2d6e15a4212e2459887589f3e79781a9902f0ebbf44f12dc76bd75e82efa66/zixcel-interaction-0.10.0.tgz
+
+  '@hathq/delivery-server@file:../../../../../../../.artifacts/npm/2ba2f7fbee09dce60eb9ec67d308b53ad54dcdb61638640b4d87e36390050c70/hathq-delivery-server-0.10.0.tgz':
+    dependencies:
+      '@crowsi/browser-security': file:../../../../../../../.artifacts/npm/84e72b71616d5f5507518e09129c26546851cad3045f14e7034f32cb5fb89581/crowsi-browser-security-0.10.0.tgz
+      '@crowsi/transport-foundation': file:../../../../../../../.artifacts/npm/3681e780264e95c203c34c3208848fdf326cc1f3e5b517b43f07f148c3c42906/crowsi-transport-foundation-0.10.0.tgz
+      '@hathq/delivery-contracts': file:../../../../../../../.artifacts/npm/24d8a336667d1572ef11cc09f80b92035d468e1cfda116549985cd28a08e3ebe/hathq-delivery-contracts-0.10.0.tgz
+      ws: 8.21.2
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+
+  '@hathq/dom-renderer@file:../../../../../../../.artifacts/npm/3a738560d30085dff43df817f212a118766ae42dd7b45ac934d2e1d76ee77818/hathq-dom-renderer-0.10.0.tgz':
+    dependencies:
+      '@zixcel/interaction': file:../../../../../../../.artifacts/npm/1c2d6e15a4212e2459887589f3e79781a9902f0ebbf44f12dc76bd75e82efa66/zixcel-interaction-0.10.0.tgz
+
+  '@hathq/ihat-store-core@file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz': {}
+
+  '@hathq/ihat-store-local@file:../../../../../../../.artifacts/npm/db8e22b9080b8aa46157c550aa262d545326e43199ad988f9edc744282dae8e8/hathq-ihat-store-local-0.10.0.tgz':
+    dependencies:
+      '@hathq/ihat-store-core': file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz
+      '@hathq/ihat-store-source': file:../../../../../../../.artifacts/npm/fe2fa895e5830ebd417c57567f5b4b36b39da5950863a040564d4a57711757a8/hathq-ihat-store-source-0.10.0.tgz
+
+  '@hathq/ihat-store-scenes@file:../../../../../../../.artifacts/npm/e5890b57443cefc0d7871ffde5b8a355950f8db2e6d210cdbe4888ddb608fa11/hathq-ihat-store-scenes-0.10.0.tgz':
+    dependencies:
+      '@hathq/ihat-store-core': file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz
+      '@hathq/projection-contracts': file:../../../../../../../.artifacts/npm/b2da11ed4896c72e21e29c93cf90717db3b161445861cf0925ceda71dd6d0767/hathq-projection-contracts-0.10.0.tgz
+
+  '@hathq/ihat-store-source@file:../../../../../../../.artifacts/npm/fe2fa895e5830ebd417c57567f5b4b36b39da5950863a040564d4a57711757a8/hathq-ihat-store-source-0.10.0.tgz': {}
+
+  '@hathq/ihat-store-web@file:../../../../../../../.artifacts/npm/f3aa7e2d08f8213a386c0a2aafe5cbcf1b5520fb0004e3755b75b85b6c431c1d/hathq-ihat-store-web-0.10.0.tgz':
+    dependencies:
+      '@hathq/ihat-store-core': file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz
+
+  '@hathq/projection-client@file:../../../../../../../.artifacts/npm/0b25c8bd5e112b498d040a132cdaaa42e06d64cf3f3f54930f7ddf26f6dfe89f/hathq-projection-client-0.10.0.tgz':
+    dependencies:
+      '@hathq/projection-contracts': file:../../../../../../../.artifacts/npm/b2da11ed4896c72e21e29c93cf90717db3b161445861cf0925ceda71dd6d0767/hathq-projection-contracts-0.10.0.tgz
+
+  '@hathq/projection-contracts@file:../../../../../../../.artifacts/npm/b2da11ed4896c72e21e29c93cf90717db3b161445861cf0925ceda71dd6d0767/hathq-projection-contracts-0.10.0.tgz':
+    dependencies:
+      '@zixcel/interaction': file:../../../../../../../.artifacts/npm/1c2d6e15a4212e2459887589f3e79781a9902f0ebbf44f12dc76bd75e82efa66/zixcel-interaction-0.10.0.tgz
+      ohash: 2.0.11
+
+  '@playwright/test@1.62.1':
+    dependencies:
+      playwright: 1.62.1
+
+  '@zixcel/interaction@file:../../../../../../../.artifacts/npm/1c2d6e15a4212e2459887589f3e79781a9902f0ebbf44f12dc76bd75e82efa66/zixcel-interaction-0.10.0.tgz': {}
+
+  esbuild@0.28.1:
+    optionalDependencies:
+      '@esbuild/aix-ppc64': 0.28.1
+      '@esbuild/android-arm': 0.28.1
+      '@esbuild/android-arm64': 0.28.1
+      '@esbuild/android-x64': 0.28.1
+      '@esbuild/darwin-arm64': 0.28.1
+      '@esbuild/darwin-x64': 0.28.1
+      '@esbuild/freebsd-arm64': 0.28.1
+      '@esbuild/freebsd-x64': 0.28.1
+      '@esbuild/linux-arm': 0.28.1
+      '@esbuild/linux-arm64': 0.28.1
+      '@esbuild/linux-ia32': 0.28.1
+      '@esbuild/linux-loong64': 0.28.1
+      '@esbuild/linux-mips64el': 0.28.1
+      '@esbuild/linux-ppc64': 0.28.1
+      '@esbuild/linux-riscv64': 0.28.1
+      '@esbuild/linux-s390x': 0.28.1
+      '@esbuild/linux-x64': 0.28.1
+      '@esbuild/netbsd-arm64': 0.28.1
+      '@esbuild/netbsd-x64': 0.28.1
+      '@esbuild/openbsd-arm64': 0.28.1
+      '@esbuild/openbsd-x64': 0.28.1
+      '@esbuild/openharmony-arm64': 0.28.1
+      '@esbuild/sunos-x64': 0.28.1
+      '@esbuild/win32-arm64': 0.28.1
+      '@esbuild/win32-ia32': 0.28.1
+      '@esbuild/win32-x64': 0.28.1
+
+  fsevents@2.3.2:
+    optional: true
+
+  ohash@2.0.11: {}
+
+  playwright-core@1.62.1: {}
+
+  playwright@1.62.1:
+    dependencies:
+      playwright-core: 1.62.1
+    optionalDependencies:
+      fsevents: 2.3.2
+
+  ws@8.21.2: {}

@@ -1,0 +1,31 @@
+{
+  "name": "@hathq/ihat-store-tests",
+  "version": "0.10.0",
+  "type": "module",
+  "license": "Apache-2.0",
+  "files": [
+    "src",
+    "test",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    "LICENSE-PREVIOUS"
+  ],
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "@hathq/ihat-store-core": "file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz",
+    "@hathq/ihat-store-source": "file:../../../../../../../.artifacts/npm/fe2fa895e5830ebd417c57567f5b4b36b39da5950863a040564d4a57711757a8/hathq-ihat-store-source-0.10.0.tgz",
+    "@hathq/ihat-store-scenes": "file:../../../../../../../.artifacts/npm/e5890b57443cefc0d7871ffde5b8a355950f8db2e6d210cdbe4888ddb608fa11/hathq-ihat-store-scenes-0.10.0.tgz",
+    "@hathq/ihat-store-local": "file:../../../../../../../.artifacts/npm/db8e22b9080b8aa46157c550aa262d545326e43199ad988f9edc744282dae8e8/hathq-ihat-store-local-0.10.0.tgz",
+    "@hathq/ihat-store-web": "file:../../../../../../../.artifacts/npm/f3aa7e2d08f8213a386c0a2aafe5cbcf1b5520fb0004e3755b75b85b6c431c1d/hathq-ihat-store-web-0.10.0.tgz",
+    "@hathq/delivery-server": "file:../../../../../../../.artifacts/npm/2ba2f7fbee09dce60eb9ec67d308b53ad54dcdb61638640b4d87e36390050c70/hathq-delivery-server-0.10.0.tgz",
+    "@hathq/delivery-client": "file:../../../../../../../.artifacts/npm/664193abd29b6a9a34e445aa4eaa3887f432587a7e3a990897eb697663a49b84/hathq-delivery-client-0.10.0.tgz",
+    "@playwright/test": "1.62.1",
+    "esbuild": "0.28.1"
+  }
+}
